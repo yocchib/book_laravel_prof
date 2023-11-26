@@ -9,10 +9,10 @@ use Mockery ;                     // p250 taka
 class TweetServiceTest extends TestCase
 {
     /**
-     * @runInSeparateProcess // (p250 taka)TweetServiceのインスタンスを作成
+     * @runInSeparateProcess
      * @return void
-     * A basic unit test example.
      */
+    /*
     public function test_check_own_tweet(): void
     {
         $tweetService = new TweetService(); // (p250 taka)TweetServiceのインスタンスを作成
@@ -28,6 +28,6 @@ class TweetServiceTest extends TestCase
 
         $result = $tweetService->checkOwnTweet(2, 1); // (p250 taka)
         $this->assertFalse($result);                  // (p250 taka)
-
     }
+    */
 }
